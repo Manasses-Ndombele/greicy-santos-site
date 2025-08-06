@@ -6,7 +6,12 @@ const About: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-black">Sobre Mim</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <h3 className="text-2xl font-bold mb-6 text-black">Greicy Santos</h3>
+              <h3 className="text-2xl font-bold text-black">Greicy Santos</h3>
+              <div className="flex flex-wrap gap-4 py-4">
+                  <span className="bg-black text-white px-4 py-2 rounded-full text-sm cursor-pointer hover:bg-gray-700 transition-colors duration-500 ease-in">Modelo Profissional</span>
+                  <span className="bg-black text-white px-4 py-2 rounded-full text-sm cursor-pointer hover:bg-gray-700 transition-colors duration-500 ease-in">UGC Creator</span>
+                  <span className="bg-black text-white px-4 py-2 rounded-full text-sm cursor-pointer hover:bg-gray-700 transition-colors duration-500 ease-in">Influenciadora</span>
+                </div>
               <div className="space-y-4 text-gray-700">
                 <p>
                   Olá! Sou a Greicy Santos, modelo profissional e UGC Creator apaixonada por criar conteúdo 
@@ -23,11 +28,6 @@ const About: React.FC = () => {
                   e UGC que converte. Cada projeto é único e recebe minha dedicação total para entregar 
                   resultados excepcionais.
                 </p>
-                <div className="flex flex-wrap gap-4 pt-4">
-                  <span className="bg-black text-white px-4 py-2 rounded-full text-sm">Modelo Profissional</span>
-                  <span className="bg-black text-white px-4 py-2 rounded-full text-sm">UGC Creator</span>
-                  <span className="bg-black text-white px-4 py-2 rounded-full text-sm">Influenciadora</span>
-                </div>
               </div>
             </div>
             <div className="order-1 lg:order-2">
@@ -35,7 +35,7 @@ const About: React.FC = () => {
                 src="https://res.cloudinary.com/dl2earg2m/image/upload/v1754437173/2000_65d595764dfdc_ykkz4p.jpg"
                 alt="Greicy Santos"
                 loading="lazy"
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full h-auto shadow-lg"
               />
             </div>
           </div>
