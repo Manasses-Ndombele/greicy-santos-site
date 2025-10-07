@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Greicy Santos. Todos os direitos reservados.
+            © 2024 <a href="https://manassesndombele.com">Manassés Ndombele</a>. Todos os direitos reservados.
           </p>
         </div>
       </div>
